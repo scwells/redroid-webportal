@@ -8,15 +8,15 @@
         Size:
       </th>
     </thead>
+      <% get_device_directory(locals[:deviceid]).each do |video| %>
       <tr>
-        <% get_device_directory(locals[:deviceid]).each do |video| %>
-        <td>
-          <%= link_to(video[:name], download_path(device: "#{locals[:deviceid]}", file: video[:name], target: "_self")) %>
-        </td>
-        <td>
-          <%= video[:size].to_s %> MB
-        </td>
+          <td>
+            <%= link_to(video[:name], download_path(device: "#{locals[:deviceid]}", file: video[:name], target: "_self")) %>
+          </td>
+          <td>
+            <%= video[:size].to_s %> MB
+          </td>
+        </tr>
         <% end %>
-      </tr>
   </table>
 </div>
