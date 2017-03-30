@@ -13339,3 +13339,1541 @@ Processing by DevicesController#show as HTML
 Completed 200 OK in 29ms (Views: 28.5ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 24.2.102.119 at 2017-03-29 23:58:47 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+Completed 200 OK in 98ms (Views: 97.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-29 23:59:04 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (1.1ms)
+  Rendered devices/show.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+Completed 200 OK in 34ms (Views: 32.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 00:01:27 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (0.7ms)
+  Rendered devices/show.html.erb within layouts/application (1.7ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/redroid/redroid-webportal/app/views/devices/_video_table.html.erb:21: syntax error, unexpected ':', expecting ')'
+( image_tag("down_arrow.png" :options) );@output_buffer.safe
+                              ^
+/home/redroid/redroid-webportal/app/views/devices/_video_table.html.erb:26: syntax error, unexpected keyword_ensure, expecting end-of-input
+          ensure
+                ^):
+  
+app/views/devices/_video_table.html.erb:21: syntax error, unexpected ':', expecting ')'
+app/views/devices/_video_table.html.erb:26: syntax error, unexpected keyword_ensure, expecting end-of-input
+app/views/devices/show.html.erb:2:in `_app_views_devices_show_html_erb___571717931608220583_69848562616760'
+  Rendering /home/redroid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/redroid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/redroid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.4ms)
+  Rendering /home/redroid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/redroid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.9ms)
+  Rendering /home/redroid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/redroid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/redroid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (35.0ms)
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 00:02:14 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (71.5ms)
+  Rendered devices/show.html.erb within layouts/application (72.3ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+Completed 200 OK in 95ms (Views: 94.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 00:03:11 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (2.7ms)
+  Rendered devices/show.html.erb within layouts/application (3.5ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+Completed 200 OK in 29ms (Views: 28.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 00:03:38 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (2.4ms)
+  Rendered devices/show.html.erb within layouts/application (3.2ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+Completed 200 OK in 27ms (Views: 26.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 00:04:07 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (2.8ms)
+  Rendered devices/show.html.erb within layouts/application (3.6ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+Completed 200 OK in 29ms (Views: 28.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 00:08:56 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (2.9ms)
+  Rendered devices/show.html.erb within layouts/application (3.8ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+Completed 200 OK in 66ms (Views: 64.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 00:10:04 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (3.1ms)
+  Rendered devices/show.html.erb within layouts/application (4.5ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+Completed 200 OK in 60ms (Views: 59.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 00:10:38 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (2.7ms)
+  Rendered devices/show.html.erb within layouts/application (3.5ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+Completed 200 OK in 57ms (Views: 55.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 66.102.6.20 at 2017-03-30 00:16:39 +0000
+Cannot render console from 66.102.6.20! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+Completed 200 OK in 28ms (Views: 26.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 66.102.6.16 at 2017-03-30 00:16:39 +0000
+Cannot render console from 66.102.6.16! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_header.html.erb (1.8ms)
+Completed 200 OK in 27ms (Views: 26.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 00:25:39 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (2.5ms)
+  Rendered devices/show.html.erb within layouts/application (3.3ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+Completed 200 OK in 75ms (Views: 73.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 00:33:20 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (3.0ms)
+  Rendered devices/show.html.erb within layouts/application (3.9ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+Completed 200 OK in 83ms (Views: 82.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 00:36:12 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (3.6ms)
+  Rendered devices/show.html.erb within layouts/application (4.4ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+Completed 200 OK in 87ms (Views: 85.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 00:39:06 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (3.5ms)
+  Rendered devices/show.html.erb within layouts/application (4.4ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+Completed 200 OK in 88ms (Views: 86.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 00:39:45 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (3.0ms)
+  Rendered devices/show.html.erb within layouts/application (3.8ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+Completed 200 OK in 84ms (Views: 82.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/download_video?device=rJSmu2Ny&file=rJSmu2Ny_ecgcw-29-Mar-17-22%3A06%3A57.flv&target=_self" for 24.2.102.119 at 2017-03-30 00:39:48 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#download as HTML
+  Parameters: {"device"=>"rJSmu2Ny", "file"=>"rJSmu2Ny_ecgcw-29-Mar-17-22:06:57.flv", "target"=>"_self"}
+Sent file /home/redroid/video_saves/rJSmu2Ny/rJSmu2Ny_ecgcw-29-Mar-17-22:06:57.flv (0.1ms)
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download_video?device=rJSmu2Ny&file=rJSmu2Ny_ecgcw-29-Mar-17-22%3A06%3A57.flv&target=_self" for 24.2.102.119 at 2017-03-30 00:39:49 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#download as HTML
+  Parameters: {"device"=>"rJSmu2Ny", "file"=>"rJSmu2Ny_ecgcw-29-Mar-17-22:06:57.flv", "target"=>"_self"}
+Sent file /home/redroid/video_saves/rJSmu2Ny/rJSmu2Ny_ecgcw-29-Mar-17-22:06:57.flv (0.1ms)
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 00:42:21 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (3.9ms)
+  Rendered devices/show.html.erb within layouts/application (4.9ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+Completed 200 OK in 89ms (Views: 88.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 00:42:52 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (2.7ms)
+  Rendered devices/show.html.erb within layouts/application (3.5ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+Completed 200 OK in 28ms (Views: 27.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 00:44:14 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (2.7ms)
+  Rendered devices/show.html.erb within layouts/application (3.6ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+Completed 200 OK in 91ms (Views: 89.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 00:45:34 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (2.7ms)
+  Rendered devices/show.html.erb within layouts/application (3.6ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+Completed 200 OK in 78ms (Views: 77.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 00:46:45 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (3.0ms)
+  Rendered devices/show.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+Completed 200 OK in 90ms (Views: 88.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 00:47:11 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (3.2ms)
+  Rendered devices/show.html.erb within layouts/application (4.1ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+Completed 200 OK in 82ms (Views: 81.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 00:47:36 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (3.6ms)
+  Rendered devices/show.html.erb within layouts/application (4.7ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+Completed 200 OK in 91ms (Views: 89.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 00:48:42 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (2.6ms)
+  Rendered devices/show.html.erb within layouts/application (3.3ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+Completed 200 OK in 74ms (Views: 73.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 00:49:09 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (3.5ms)
+  Rendered devices/show.html.erb within layouts/application (4.7ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+Completed 200 OK in 93ms (Views: 91.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 00:53:44 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (3.1ms)
+  Rendered devices/show.html.erb within layouts/application (4.1ms)
+  Rendered layouts/_header.html.erb (1.3ms)
+Completed 200 OK in 84ms (Views: 82.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 00:53:58 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (3.2ms)
+  Rendered devices/show.html.erb within layouts/application (4.4ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+Completed 200 OK in 47ms (Views: 46.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 00:56:11 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (3.7ms)
+  Rendered devices/show.html.erb within layouts/application (5.0ms)
+  Rendered layouts/_header.html.erb (1.8ms)
+Completed 200 OK in 112ms (Views: 111.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 01:01:53 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (5.8ms)
+  Rendered devices/show.html.erb within layouts/application (7.6ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+Completed 200 OK in 100ms (Views: 98.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 01:02:06 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (3.4ms)
+  Rendered devices/show.html.erb within layouts/application (4.5ms)
+  Rendered layouts/_header.html.erb (1.3ms)
+Completed 200 OK in 85ms (Views: 84.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 01:02:17 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (2.6ms)
+  Rendered devices/show.html.erb within layouts/application (3.5ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+Completed 200 OK in 80ms (Views: 79.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 01:03:54 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (2.5ms)
+  Rendered devices/show.html.erb within layouts/application (3.5ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+Completed 200 OK in 78ms (Views: 77.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 01:05:52 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (2.8ms)
+  Rendered devices/show.html.erb within layouts/application (3.7ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+Completed 200 OK in 87ms (Views: 86.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 01:08:54 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (2.9ms)
+  Rendered devices/show.html.erb within layouts/application (3.7ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+Completed 200 OK in 31ms (Views: 29.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 01:16:21 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (3.5ms)
+  Rendered devices/show.html.erb within layouts/application (4.6ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+Completed 200 OK in 122ms (Views: 120.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 185.169.230.8 at 2017-03-30 01:16:54 +0000
+Cannot render console from 185.169.230.8! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+Completed 200 OK in 33ms (Views: 32.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 01:18:05 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (3.3ms)
+  Rendered devices/show.html.erb within layouts/application (4.3ms)
+  Rendered layouts/_header.html.erb (1.3ms)
+Completed 200 OK in 61ms (Views: 59.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 01:20:16 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (2.7ms)
+  Rendered devices/show.html.erb within layouts/application (3.5ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+Completed 200 OK in 82ms (Views: 76.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 01:21:08 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (3.6ms)
+  Rendered devices/show.html.erb within layouts/application (4.4ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+Completed 200 OK in 79ms (Views: 77.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 01:25:10 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (7.2ms)
+  Rendered devices/show.html.erb within layouts/application (8.6ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+Completed 200 OK in 91ms (Views: 90.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 01:25:34 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (4.0ms)
+  Rendered devices/show.html.erb within layouts/application (5.2ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+Completed 200 OK in 89ms (Views: 88.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 01:25:49 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (4.3ms)
+  Rendered devices/show.html.erb within layouts/application (5.4ms)
+  Rendered layouts/_header.html.erb (1.6ms)
+Completed 200 OK in 44ms (Views: 43.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 01:26:24 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (2.7ms)
+  Rendered devices/show.html.erb within layouts/application (3.6ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+Completed 200 OK in 34ms (Views: 32.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 01:30:07 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (3.1ms)
+  Rendered devices/show.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+Completed 200 OK in 89ms (Views: 88.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 01:30:45 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (3.1ms)
+  Rendered devices/show.html.erb within layouts/application (3.9ms)
+  Rendered layouts/_header.html.erb (1.4ms)
+Completed 200 OK in 81ms (Views: 80.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 01:31:09 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (3.8ms)
+  Rendered devices/show.html.erb within layouts/application (4.7ms)
+  Rendered layouts/_header.html.erb (2.0ms)
+Completed 200 OK in 43ms (Views: 41.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 01:32:42 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (4.1ms)
+  Rendered devices/show.html.erb within layouts/application (5.0ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+Completed 200 OK in 33ms (Views: 32.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 01:34:28 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (2.8ms)
+  Rendered devices/show.html.erb within layouts/application (3.6ms)
+  Rendered layouts/_header.html.erb (5.0ms)
+Completed 200 OK in 57ms (Views: 56.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 01:35:00 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (2.6ms)
+  Rendered devices/show.html.erb within layouts/application (3.4ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+Completed 200 OK in 54ms (Views: 52.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 01:35:21 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (3.5ms)
+  Rendered devices/show.html.erb within layouts/application (4.9ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+Completed 200 OK in 68ms (Views: 67.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 01:38:04 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (3.5ms)
+  Rendered devices/show.html.erb within layouts/application (4.5ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+Completed 200 OK in 34ms (Views: 33.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 01:38:48 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (3.3ms)
+  Rendered devices/show.html.erb within layouts/application (4.7ms)
+  Rendered layouts/_header.html.erb (1.3ms)
+Completed 200 OK in 35ms (Views: 33.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 01:40:59 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (2.6ms)
+  Rendered devices/show.html.erb within layouts/application (3.5ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+Completed 200 OK in 34ms (Views: 32.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 01:44:20 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (4.5ms)
+  Rendered devices/show.html.erb within layouts/application (5.4ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+Completed 200 OK in 35ms (Views: 34.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 01:44:21 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (2.9ms)
+  Rendered devices/show.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_header.html.erb (1.3ms)
+Completed 200 OK in 39ms (Views: 38.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 01:44:28 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (3.0ms)
+  Rendered devices/show.html.erb within layouts/application (3.8ms)
+  Rendered layouts/_header.html.erb (1.8ms)
+Completed 200 OK in 42ms (Views: 41.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 01:44:28 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (6.1ms)
+  Rendered devices/show.html.erb within layouts/application (9.0ms)
+  Rendered layouts/_header.html.erb (1.9ms)
+Completed 200 OK in 59ms (Views: 57.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 01:46:49 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (3.6ms)
+  Rendered devices/show.html.erb within layouts/application (4.6ms)
+  Rendered layouts/_header.html.erb (1.5ms)
+Completed 200 OK in 35ms (Views: 34.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rJSmu2Ny_gdrvx-29-Mar-17-22:10:52.flv" for 24.2.102.119 at 2017-03-30 01:46:49 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [GET] "/rJSmu2Ny_gdrvx-29-Mar-17-22:10:52.flv"):
+  
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:20:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /home/redroid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/redroid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/redroid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered collection of /home/redroid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [9 times] (4.0ms)
+  Rendered /home/redroid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+Started GET "/rJSmu2Ny_ecgcw-29-Mar-17-22:06:57.flv" for 24.2.102.119 at 2017-03-30 01:46:49 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+Started GET "/rJSmu2Ny_uxwhk-29-Mar-17-22:28:47.flv" for 24.2.102.119 at 2017-03-30 01:46:49 +0000
+Started GET "/rJSmu2Ny_gdrvx-29-Mar-17-22:21:29.flv" for 24.2.102.119 at 2017-03-30 01:46:49 +0000
+ActionController::RoutingError (No route matches [GET] "/rJSmu2Ny_ecgcw-29-Mar-17-22:06:57.flv"):
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:20:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/rJSmu2Ny_ruoac-29-Mar-17-22:24:44.flv" for 24.2.102.119 at 2017-03-30 01:46:49 +0000
+  
+  
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [GET] "/rJSmu2Ny_gdrvx-29-Mar-17-22:21:29.flv"):
+ActionController::RoutingError (No route matches [GET] "/rJSmu2Ny_uxwhk-29-Mar-17-22:28:47.flv"):
+  Rendering /home/redroid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+ActionController::RoutingError (No route matches [GET] "/rJSmu2Ny_ruoac-29-Mar-17-22:24:44.flv"):
+  
+  
+  Rendered /home/redroid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:20:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:20:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendered /home/redroid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (41.0ms)
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:20:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /home/redroid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/redroid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/redroid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/redroid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendering /home/redroid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendered /home/redroid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendering /home/redroid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/redroid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendering /home/redroid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/redroid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendering /home/redroid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/redroid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered collection of /home/redroid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [9 times] (2.9ms)
+  Rendered collection of /home/redroid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [9 times] (2.2ms)
+  Rendered collection of /home/redroid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [9 times] (2.2ms)
+  Rendered /home/redroid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.8ms)
+  Rendered /home/redroid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.7ms)
+  Rendered /home/redroid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.8ms)
+  Rendered collection of /home/redroid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [9 times] (2.5ms)
+  Rendered /home/redroid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.8ms)
+  Rendering /home/redroid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendering /home/redroid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendering /home/redroid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/redroid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/redroid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (82.3ms)
+  Rendered /home/redroid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/redroid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (89.0ms)
+  Rendered /home/redroid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/redroid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (100.1ms)
+  Rendering /home/redroid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/redroid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/redroid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (79.5ms)
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 01:47:39 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (3.3ms)
+  Rendered devices/show.html.erb within layouts/application (4.8ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+Completed 200 OK in 33ms (Views: 32.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 01:51:54 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (3.5ms)
+  Rendered devices/show.html.erb within layouts/application (4.4ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+Completed 200 OK in 33ms (Views: 32.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 01:53:32 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (3.3ms)
+  Rendered devices/show.html.erb within layouts/application (4.3ms)
+  Rendered layouts/_header.html.erb (1.5ms)
+Completed 200 OK in 33ms (Views: 32.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 01:54:11 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (3.3ms)
+  Rendered devices/show.html.erb within layouts/application (4.3ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+Completed 200 OK in 40ms (Views: 39.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/vod/rJSmu2Ny_gdrvx-29-Mar-17-22%3A10%3A52.flv" for 24.2.102.119 at 2017-03-30 01:54:24 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [GET] "/vod/rJSmu2Ny_gdrvx-29-Mar-17-22%3A10%3A52.flv"):
+  
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:20:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /home/redroid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/redroid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/redroid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered collection of /home/redroid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [9 times] (3.2ms)
+  Rendered /home/redroid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendering /home/redroid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/redroid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/redroid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (27.3ms)
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 01:54:54 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (3.0ms)
+  Rendered devices/show.html.erb within layouts/application (3.9ms)
+  Rendered layouts/_header.html.erb (1.7ms)
+Completed 200 OK in 31ms (Views: 30.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 01:56:48 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (4.1ms)
+  Rendered devices/show.html.erb within layouts/application (5.1ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+Completed 200 OK in 43ms (Views: 41.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 01:58:44 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (3.2ms)
+  Rendered devices/show.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+Completed 200 OK in 32ms (Views: 30.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 01:59:08 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (2.6ms)
+  Rendered devices/show.html.erb within layouts/application (3.7ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+Completed 200 OK in 29ms (Views: 28.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 02:00:13 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (2.7ms)
+  Rendered devices/show.html.erb within layouts/application (3.6ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+Completed 200 OK in 39ms (Views: 38.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 02:00:41 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (3.5ms)
+  Rendered devices/show.html.erb within layouts/application (4.4ms)
+  Rendered layouts/_header.html.erb (1.4ms)
+Completed 200 OK in 32ms (Views: 30.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 02:01:03 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (3.2ms)
+  Rendered devices/show.html.erb within layouts/application (4.6ms)
+  Rendered layouts/_header.html.erb (1.6ms)
+Completed 200 OK in 36ms (Views: 34.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 02:03:56 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (1.4ms)
+  Rendered devices/show.html.erb within layouts/application (2.2ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/redroid/redroid-webportal/app/views/devices/_video_table.html.erb:26: syntax error, unexpected tIDENTIFIER, expecting ')'
+deo_count += 1 >" class="video-js" controls preload="auto" w
+                              ^
+/home/redroid/redroid-webportal/app/views/devices/_video_table.html.erb:26: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+count += 1 >" class="video-js" controls preload="auto" width
+                              ^
+/home/redroid/redroid-webportal/app/views/devices/_video_table.html.erb:26: syntax error, unexpected tIDENTIFIER, expecting ')'
+deo-js" controls preload="auto" width="640" height="480" dat
+                              ^
+/home/redroid/redroid-webportal/app/views/devices/_video_table.html.erb:26: syntax error, unexpected tINTEGER, expecting ')'
+rols preload="auto" width="640" height="480" data-setup="{}"
+                              ^
+/home/redroid/redroid-webportal/app/views/devices/_video_table.html.erb:26: syntax error, unexpected tINTEGER, expecting ')'
+"auto" width="640" height="480" data-setup="{}">
+                              ^
+/home/redroid/redroid-webportal/app/views/devices/_video_table.html.erb:26: syntax error, unexpected '{', expecting ')'
+40" height="480" data-setup="{}">
+                              ^
+/home/redroid/redroid-webportal/app/views/devices/_video_table.html.erb:27: syntax error, unexpected tIDENTIFIER, expecting ')'
+          <source src="rtmp://redroid-video.westus.clouda
+                           ^
+/home/redroid/redroid-webportal/app/views/devices/_video_table.html.erb:27: unknown regexp options - rdrd
+/home/redroid/redroid-webportal/app/views/devices/_video_table.html.erb:27: syntax error, unexpected '<'
+estus.cloudapp.azure.com/vod/<%= video[:name] );@output_buff
+                              ^
+/home/redroid/redroid-webportal/app/views/devices/_video_table.html.erb:36: syntax error, unexpected keyword_end, expecting ')'
+'.freeze;       end 
+                   ^
+/home/redroid/redroid-webportal/app/views/devices/_video_table.html.erb:39: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+                ^
+/home/redroid/redroid-webportal/app/views/devices/_video_table.html.erb:41: syntax error, unexpected keyword_end, expecting ')'
+          end
+             ^):
+  
+app/views/devices/_video_table.html.erb:26: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/devices/_video_table.html.erb:26: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+app/views/devices/_video_table.html.erb:26: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/devices/_video_table.html.erb:26: syntax error, unexpected tINTEGER, expecting ')'
+app/views/devices/_video_table.html.erb:26: syntax error, unexpected tINTEGER, expecting ')'
+app/views/devices/_video_table.html.erb:26: syntax error, unexpected '{', expecting ')'
+app/views/devices/_video_table.html.erb:27: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/devices/_video_table.html.erb:27: unknown regexp options - rdrd
+app/views/devices/_video_table.html.erb:27: syntax error, unexpected '<'
+app/views/devices/_video_table.html.erb:36: syntax error, unexpected keyword_end, expecting ')'
+app/views/devices/_video_table.html.erb:39: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/devices/_video_table.html.erb:41: syntax error, unexpected keyword_end, expecting ')'
+app/views/devices/show.html.erb:2:in `_app_views_devices_show_html_erb___571717931608220583_69848617028060'
+  Rendering /home/redroid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/redroid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/redroid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (12.0ms)
+  Rendering /home/redroid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/redroid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering /home/redroid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/redroid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/redroid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (30.8ms)
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 02:05:01 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (3.2ms)
+  Rendered devices/show.html.erb within layouts/application (4.1ms)
+  Rendered layouts/_header.html.erb (1.5ms)
+Completed 200 OK in 36ms (Views: 34.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 02:06:07 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (2.7ms)
+  Rendered devices/show.html.erb within layouts/application (4.1ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+Completed 200 OK in 29ms (Views: 28.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 02:06:57 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (3.5ms)
+  Rendered devices/show.html.erb within layouts/application (4.4ms)
+  Rendered layouts/_header.html.erb (1.4ms)
+Completed 200 OK in 36ms (Views: 34.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 02:08:18 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (3.7ms)
+  Rendered devices/show.html.erb within layouts/application (4.7ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+Completed 200 OK in 33ms (Views: 32.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 02:09:31 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (3.9ms)
+  Rendered devices/show.html.erb within layouts/application (5.1ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+Completed 200 OK in 42ms (Views: 40.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/download_video?device=rJSmu2Ny&file=rJSmu2Ny_uxwhk-29-Mar-17-22%3A28%3A47.flv&target=_self" for 24.2.102.119 at 2017-03-30 02:11:18 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#download as HTML
+  Parameters: {"device"=>"rJSmu2Ny", "file"=>"rJSmu2Ny_uxwhk-29-Mar-17-22:28:47.flv", "target"=>"_self"}
+Sent file /home/redroid/video_saves/rJSmu2Ny/rJSmu2Ny_uxwhk-29-Mar-17-22:28:47.flv (0.1ms)
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download_video?device=rJSmu2Ny&file=rJSmu2Ny_uxwhk-29-Mar-17-22%3A28%3A47.flv&target=_self" for 24.2.102.119 at 2017-03-30 02:11:19 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#download as HTML
+  Parameters: {"device"=>"rJSmu2Ny", "file"=>"rJSmu2Ny_uxwhk-29-Mar-17-22:28:47.flv", "target"=>"_self"}
+Sent file /home/redroid/video_saves/rJSmu2Ny/rJSmu2Ny_uxwhk-29-Mar-17-22:28:47.flv (0.1ms)
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/download_video?device=rJSmu2Ny&file=rJSmu2Ny_uxwhk-29-Mar-17-22%3A28%3A47.flv&target=_self" for 24.2.102.119 at 2017-03-30 02:11:28 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#download as HTML
+  Parameters: {"device"=>"rJSmu2Ny", "file"=>"rJSmu2Ny_uxwhk-29-Mar-17-22:28:47.flv", "target"=>"_self"}
+Sent file /home/redroid/video_saves/rJSmu2Ny/rJSmu2Ny_uxwhk-29-Mar-17-22:28:47.flv (0.1ms)
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 24.2.102.119 at 2017-03-30 02:11:47 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+Completed 200 OK in 30ms (Views: 29.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 02:11:51 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (3.8ms)
+  Rendered devices/show.html.erb within layouts/application (4.9ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+Completed 200 OK in 37ms (Views: 35.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 02:18:28 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (2.4ms)
+  Rendered devices/show.html.erb within layouts/application (3.2ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `+' for nil:NilClass):
+    1: <video id="redroid-video<%= video_count += 1 %>" class="video-js" controls preload="auto" width="640" height="480" data-setup="{}">
+    2:   <% get_device_directory(locals[:deviceid]).each do |video| %>
+    3:     <source src="rtmp://redroid-video.westus.cloudapp.azure.com/vod/<%= video[:name] %>" type='video/rtmp'>
+    4:   <% end %>
+  
+app/views/devices/_video_table.html.erb:1:in `_app_views_devices__video_table_html_erb__2921454609293002187_69848554944660'
+app/views/devices/show.html.erb:2:in `_app_views_devices_show_html_erb___571717931608220583_69848555138040'
+  Rendering /home/redroid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/redroid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/redroid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.3ms)
+  Rendering /home/redroid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/redroid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendering /home/redroid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/redroid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered /home/redroid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (21.6ms)
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 02:18:57 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (3.0ms)
+  Rendered devices/show.html.erb within layouts/application (4.1ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+Completed 200 OK in 31ms (Views: 30.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 02:36:36 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (1.0ms)
+  Rendered devices/show.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/redroid/redroid-webportal/app/views/devices/_video_table.html.erb:15: syntax error, unexpected '<', expecting keyword_end
+      <% get_device_directory(locals[
+       ^
+/home/redroid/redroid-webportal/app/views/devices/_video_table.html.erb:15: syntax error, unexpected keyword_do, expecting keyword_end
+ory(locals[:deviceid]).each do |video| 
+                              ^
+/home/redroid/redroid-webportal/app/views/devices/_video_table.html.erb:41: syntax error, unexpected keyword_ensure, expecting end-of-input
+          ensure
+                ^):
+  
+app/views/devices/_video_table.html.erb:15: syntax error, unexpected '<', expecting keyword_end
+app/views/devices/_video_table.html.erb:15: syntax error, unexpected keyword_do, expecting keyword_end
+app/views/devices/_video_table.html.erb:41: syntax error, unexpected keyword_ensure, expecting end-of-input
+app/views/devices/show.html.erb:2:in `_app_views_devices_show_html_erb___571717931608220583_69848559262560'
+  Rendering /home/redroid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/redroid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/redroid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.3ms)
+  Rendering /home/redroid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/redroid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendering /home/redroid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/redroid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/redroid/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (20.5ms)
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 02:36:53 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (2.7ms)
+  Rendered devices/show.html.erb within layouts/application (3.8ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+Completed 200 OK in 31ms (Views: 29.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 02:45:11 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (2.9ms)
+  Rendered devices/show.html.erb within layouts/application (3.8ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+Completed 200 OK in 86ms (Views: 85.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 02:46:02 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (4.5ms)
+  Rendered devices/show.html.erb within layouts/application (5.7ms)
+  Rendered layouts/_header.html.erb (2.9ms)
+Completed 200 OK in 128ms (Views: 127.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 02:57:30 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (2.9ms)
+  Rendered devices/show.html.erb within layouts/application (9.4ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+Completed 200 OK in 37ms (Views: 35.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 24.2.102.119 at 2017-03-30 02:58:34 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_header.html.erb (1.3ms)
+Completed 200 OK in 30ms (Views: 28.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 02:58:39 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (3.0ms)
+  Rendered devices/show.html.erb within layouts/application (3.9ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+Completed 200 OK in 35ms (Views: 33.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 03:03:08 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (3.1ms)
+  Rendered devices/show.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+Completed 200 OK in 83ms (Views: 82.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 03:03:44 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (3.8ms)
+  Rendered devices/show.html.erb within layouts/application (4.8ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+Completed 200 OK in 38ms (Views: 37.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 03:05:57 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (2.9ms)
+  Rendered devices/show.html.erb within layouts/application (3.8ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+Completed 200 OK in 87ms (Views: 86.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 03:06:48 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (3.6ms)
+  Rendered devices/show.html.erb within layouts/application (4.8ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+Completed 200 OK in 103ms (Views: 102.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 03:07:36 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (4.0ms)
+  Rendered devices/show.html.erb within layouts/application (5.3ms)
+  Rendered layouts/_header.html.erb (2.3ms)
+Completed 200 OK in 112ms (Views: 110.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 03:08:44 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (6.1ms)
+  Rendered devices/show.html.erb within layouts/application (7.5ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+Completed 200 OK in 107ms (Views: 104.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 03:18:24 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (4.7ms)
+  Rendered devices/show.html.erb within layouts/application (5.6ms)
+  Rendered layouts/_header.html.erb (1.3ms)
+Completed 200 OK in 90ms (Views: 89.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 03:18:55 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (3.9ms)
+  Rendered devices/show.html.erb within layouts/application (4.7ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+Completed 200 OK in 89ms (Views: 88.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 03:19:45 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (2.3ms)
+  Rendered devices/show.html.erb within layouts/application (3.1ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+Completed 200 OK in 74ms (Views: 73.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 03:20:08 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (2.6ms)
+  Rendered devices/show.html.erb within layouts/application (3.3ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+Completed 200 OK in 78ms (Views: 77.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 03:21:16 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (2.5ms)
+  Rendered devices/show.html.erb within layouts/application (3.4ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+Completed 200 OK in 37ms (Views: 36.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 03:21:51 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (2.6ms)
+  Rendered devices/show.html.erb within layouts/application (3.4ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+Completed 200 OK in 82ms (Views: 81.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 03:23:03 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (2.6ms)
+  Rendered devices/show.html.erb within layouts/application (3.7ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+Completed 200 OK in 80ms (Views: 78.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 03:25:51 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (3.5ms)
+  Rendered devices/show.html.erb within layouts/application (4.4ms)
+  Rendered layouts/_header.html.erb (1.4ms)
+Completed 200 OK in 82ms (Views: 81.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 03:26:37 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (2.8ms)
+  Rendered devices/show.html.erb within layouts/application (3.8ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+Completed 200 OK in 84ms (Views: 82.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 03:27:22 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (3.2ms)
+  Rendered devices/show.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+Completed 200 OK in 29ms (Views: 28.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 03:32:28 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (2.7ms)
+  Rendered devices/show.html.erb within layouts/application (3.7ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+Completed 200 OK in 28ms (Views: 26.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 24.2.102.119 at 2017-03-30 03:33:26 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+Completed 200 OK in 26ms (Views: 25.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/devices?utf8=%E2%9C%93&search=rJSmu2Ny&commit=Search" for 24.2.102.119 at 2017-03-30 03:33:51 +0000
+Cannot render console from 24.2.102.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DevicesController#show as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"rJSmu2Ny", "commit"=>"Search"}
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/_video_table.html.erb (3.4ms)
+  Rendered devices/show.html.erb within layouts/application (4.5ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+Completed 200 OK in 35ms (Views: 34.3ms | ActiveRecord: 0.0ms)
+
+

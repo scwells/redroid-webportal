@@ -1,3 +1,10 @@
+<video id="redroid-video" class="video-js" controls preload="auto" width="640" height="480" data-setup="{}">
+    <p class="vjs-no-js">
+    To view this video please enable JavaScript, and consider upgrading to a web browser that
+    <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+  </p>
+</video>
+
 <div id="video-table">
   <table class="table-striped">
     <thead>
@@ -8,15 +15,23 @@
         Size:
       </th>
     </thead>
+      <% video_count = 0 %>
       <% get_device_directory(locals[:deviceid]).each do |video| %>
       <tr>
-          <td>
+          <td id= "video-name">
             <%= link_to(video[:name], download_path(device: "#{locals[:deviceid]}", file: video[:name], target: "_self")) %>
           </td>
           <td>
             <%= video[:size].to_s %> MB
           </td>
-        </tr>
-        <% end %>
+          <td>
+          <%= image_tag("down_arrow.png", id: 'expand-img', size: '30x30', class: 'rotate-image') %>
+          </td>
+      </tr>
+      <tr class="hidden-video" id="<%= video[:name] %>">
+        <td>
+        </td>
+      </tr>
+      <% end %>
   </table>
 </div>

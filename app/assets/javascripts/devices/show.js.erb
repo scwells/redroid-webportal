@@ -1,0 +1,28 @@
+// $(document).ready( function () {
+//   $("[id=expand-img]").click( function (){
+//     if ($(this).hasClass("rotate-image")){
+//       var $video = $(this).closest("video");
+//       var $videoId = $(this).closest("video").attr("id");
+//       $video.player = videojs("video");
+//     } else {
+//       $(this).closest("video").dispose();
+//     }
+//     $(this).toggleClass("rotate-image");
+//     $(this).closest("tr").next().fadeToggle("hidden-video");
+//   });
+// });
+
+
+$(document).ready( function () {
+  videojs('redroid-video').ready(function () {
+        var redroidPlayer = this;
+        // redroidPlayer.src({type: 'video/rtmp', src: 'rtmp://redroid-video.westus.cloudapp.azure.com/vod/rJSmu2Ny_gdrvx-29-Mar-17-22:10:52.flv'});
+        $("[id=expand-img]").on('click', function () {
+          redroidPlayer.pause();
+          var filename = $(this).parent().parent().next().attr("id");
+          redroidPlayer.src({type: 'video/rtmp', src: ('rtmp://redroid-video.westus.cloudapp.azure.com/vod/' + filename)});
+          redroidPlayer.load();
+          redroidPlayer.play();
+        });
+    });
+});

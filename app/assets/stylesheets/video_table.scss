@@ -1,5 +1,6 @@
 #video-table{
   margin-top: 50px;
+  width: 640px;
   th{
     font-size: 30px;
     font-style: bold;
@@ -12,4 +13,16 @@
       font-size: 20px;
     }
   }
+}
+
+.rotate-image{
+  -webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+
+.hidden-video{
+  display: none;
 }
