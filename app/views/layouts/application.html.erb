@@ -12,8 +12,24 @@
     <script src="http://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
   </head>
   <body>
-    <%= render 'layouts/header' %>
-    <%= yield %>
-    <script src="http://vjs.zencdn.net/5.19.0/video.js"></script>
+    <div class="container">
+      <div class="row" id="header-row">
+        <div class="col-lg-12">
+          <%= render 'layouts/header' %>
+        </div>
+      </div>
+      <div class="row" id="flash-row">
+        <div class="col-lg-12">
+          <% flash.each do |key, value| %>
+              <div class="alert alert-<%= key %>"><%= value %></div>
+          <% end %>
+          <% flash = {} %>
+          </div>
+      </div>
+      <div class="row" id="main-row">
+        <%= yield %>
+      </div>
+        <script src="http://vjs.zencdn.net/5.19.0/video.js"></script>
+    </div>
   </body>
 </html>

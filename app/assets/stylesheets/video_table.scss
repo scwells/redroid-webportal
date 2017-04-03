@@ -1,18 +1,9 @@
 #video-table{
-  margin-top: 50px;
-  width: 640px;
-  th{
-    font-size: 30px;
-    font-style: bold;
-  }
-  tr{
-    height: 40px;
-    vertical-align: center;
-    td{
-      padding: 10px;
-      font-size: 20px;
-    }
-  }
+  
+}
+
+.video-title{
+  
 }
 
 .rotate-image{
@@ -25,4 +16,13 @@
 
 .hidden-video{
   display: none;
+}
+
+.video-selected{
+  background-color: #97FE9E;
+  -webkit-transition: background 0.5s linear;
+  -moz-transition: background 0.5s linear;
+  -ms-transition: background 0.5s linear;
+  -o-transition: background 0.5s linear;
+  transition: background 0.5s linear;
 }

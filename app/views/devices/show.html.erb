@@ -1,2 +1,11 @@
-<p id="notice"><%= notice %></p>
-<%= render 'video_table', locals: { deviceid: @deviceid } %>
+     <div class="col-lg-6" id="video-table-column">
+       <%= render 'video_table', locals: { deviceid: @deviceid } %>
+     </div>
+     <div class="col-lg-6" id="video-player-column">
+       <video id="redroid-video" class="video-js" controls preload="auto" width="640" height="480" data-setup="{}">
+         <p class="vjs-no-js">
+           To view this video please enable JavaScript, and consider upgrading to a web browser that
+           <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+         </p>
+       </video>
+     </div>

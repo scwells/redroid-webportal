@@ -1,13 +1,6 @@
-<video id="redroid-video" class="video-js" controls preload="auto" width="640" height="480" data-setup="{}">
-    <p class="vjs-no-js">
-    To view this video please enable JavaScript, and consider upgrading to a web browser that
-    <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
-  </p>
-</video>
-
 <div id="video-table">
-  <table class="table-striped">
-    <thead>
+  <table class="table">
+    <thead class="success">
       <th>
         Video Name:
       </th>
@@ -15,14 +8,19 @@
         Size:
       </th>
     </thead>
-      <% video_count = 0 %>
-      <% get_device_directory(locals[:deviceid]).each do |video| %>
+      <% @videos.each do |video| %>
       <tr>
-          <td id= "video-name">
-            <%= link_to(video[:name], download_path(device: "#{locals[:deviceid]}", file: video[:name], target: "_self")) %>
+          <td class= "video-title">
+            <%= video[:name] %>
           </td>
           <td>
             <%= video[:size].to_s %> MB
+          </td>
+          <td>
+          <%= link_to image_tag("delete_icon.png", id: 'delete-img', size: '30x30'), delete_path(device: "#{locals[:deviceid]}", file: video[:name]), data: { confirm: "Delete video #{video[:name]}?" }, method: :delete %>
+          </td>
+          <td>
+          <%= link_to image_tag("download_icon.png", id: 'download-img', size: '30x30'), download_path(device: "#{locals[:deviceid]}", file: video[:name], target: "_self") %>
           </td>
           <td>
           <%= image_tag("down_arrow.png", id: 'expand-img', size: '30x30', class: 'rotate-image') %>

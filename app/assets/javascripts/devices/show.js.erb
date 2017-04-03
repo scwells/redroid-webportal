@@ -1,28 +1,46 @@
-// $(document).ready( function () {
-//   $("[id=expand-img]").click( function (){
-//     if ($(this).hasClass("rotate-image")){
-//       var $video = $(this).closest("video");
-//       var $videoId = $(this).closest("video").attr("id");
-//       $video.player = videojs("video");
-//     } else {
-//       $(this).closest("video").dispose();
-//     }
-//     $(this).toggleClass("rotate-image");
-//     $(this).closest("tr").next().fadeToggle("hidden-video");
-//   });
-// });
-
-
 $(document).ready( function () {
+
+  var videoTopOffset = $('#main-row').offset().top;
+  var fixVideoFunction = function () {
+    if($(window).scrollTop() >= videoTopOffset && $(window).width() > 1210){
+      //begin to scroll
+      $("#redroid-video").css("position","fixed");
+      $("#redroid-video").css("top",0);
+    }
+    else{
+        //lock it back into place
+        $("#redroid-video").css("position","relative");
+    }
+  };
+  
+  $(window).scroll( fixVideoFunction );
+  $(window).resize( fixVideoFunction );
+
+  
+
   videojs('redroid-video').ready(function () {
         var redroidPlayer = this;
-        // redroidPlayer.src({type: 'video/rtmp', src: 'rtmp://redroid-video.westus.cloudapp.azure.com/vod/rJSmu2Ny_gdrvx-29-Mar-17-22:10:52.flv'});
+        $('.jvs-big-play-button').hide();
+
+        //play video click
         $("[id=expand-img]").on('click', function () {
-          redroidPlayer.pause();
+          $('.video-selected').removeClass('video-selected');
+          $(this).parent().parent().addClass('video-selected');
           var filename = $(this).parent().parent().next().attr("id");
+          $('#redroid-video_html5_api').hide();
           redroidPlayer.src({type: 'video/rtmp', src: ('rtmp://redroid-video.westus.cloudapp.azure.com/vod/' + filename)});
+          $('.jvs-big-play-button').show();
+          $("#redroid-video").removeClass("vjs-playing").addClass("vjs-paused");
           redroidPlayer.load();
-          redroidPlayer.play();
+          $('#redroid-video_html5_api').show();
+        });
+
+        // play video icon hover
+        $("[id=expand-img]").mouseenter(function () {
+          $(this).attr('src', '<%= image_url 'down_arrow_hover.png' %>');
+        })
+        .mouseleave( function () {
+          $(this).attr('src', '<%= image_url 'down_arrow.png' %>');
         });
     });
 });
