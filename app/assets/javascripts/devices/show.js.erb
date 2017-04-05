@@ -20,10 +20,12 @@ $(document).ready( function () {
 
   videojs('redroid-video').ready(function () {
         var redroidPlayer = this;
+        redroidPlayer.removeChild("BigPlayButton");
         $('.jvs-big-play-button').hide();
 
         //play video click
         $("[id=expand-img]").on('click', function () {
+          redroidPlayer.removeChild("BigPlayButton");
           $('.video-selected').removeClass('video-selected');
           $(this).parent().parent().addClass('video-selected');
           var filename = $(this).parent().parent().next().attr("id");
@@ -33,14 +35,15 @@ $(document).ready( function () {
           $("#redroid-video").removeClass("vjs-playing").addClass("vjs-paused");
           redroidPlayer.load();
           $('#redroid-video_html5_api').show();
+          redroidPlayer.addChild("BigPlayButton");
         });
 
         // play video icon hover
         $("[id=expand-img]").mouseenter(function () {
-          $(this).attr('src', '<%= image_url 'down_arrow_hover.png' %>');
+          $(this).attr('src', '<%= image_url 'down_arrow.png' %>');
         })
         .mouseleave( function () {
-          $(this).attr('src', '<%= image_url 'down_arrow.png' %>');
+          $(this).attr('src', '<%= image_url 'down_arrow_hover.png' %>');
         });
     });
 });
