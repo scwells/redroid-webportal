@@ -1,0 +1,27 @@
+<div class="col-lg-12 bg-success">
+  <h1 class="tutorial-slides">Pet Cam</h1>
+  <h1 class="tutorial-slides">Bike Cam</h1>
+  <h1 class="tutorial-slides">Custom Configuration</h1>
+  <h1 class="tutorial-slides">Rules</h1>
+  <button class="glyphicon glyphicon-chevron-left" onclick="plusDivs(-1)"></button>
+  <button class="glyphicon glyphicon-chevron-right" onclick="plusDivs(1)"></button>
+</div>
+<script type="text/javascript">
+  var slideIndex = 1;
+  showDivs(slideIndex);
+
+  function plusDivs(n) {
+      showDivs(slideIndex += n);
+  };
+
+  function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("tutorial-slides");
+      if (n > x.length) {slideIndex = 1} 
+      if (n < 1) {slideIndex = x.length} ;
+      for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none"; 
+      }
+      x[slideIndex-1].style.display = "block"; 
+  };
+</script>

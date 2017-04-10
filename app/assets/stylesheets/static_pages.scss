@@ -1,3 +1,103 @@
 // Place all the styles related to the StaticPages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+
+$bg-color: #FFF4F1;
+$font-color: #09286B;
+$row-header-color:  #338E8B;
+$row-bg-color: #7C91BD;
+$border-radius-val: 15px;
+
+$tutorial-row-header: #AB3310;
+$tutorial-row-content: #EB876A;
+$tutorial-content-font: #430F00;
+
+$about-row-header: #0F4B6C;
+$about-row-content: #487A95;
+$about-content-font: #011C2B;
+
+$contact-row-header: #0B793E;
+$contact-row-content: #4BA675;
+$contact-content-font: #003016;
+
+#index-body{
+  background-color: $bg-color;
+  color: black;
+  font-size: 24px;
+  line-height: 200%;
+  h2 {
+    font-size: 66px;
+    text-align: center;
+  }
+  
+  h3 {
+    font-size: 50px;
+  }
+
+  .row-header {
+    background-color: $font-color;
+    border-radius: $border-radius-val $border-radius-val 0px 0px;
+    color: $bg-color;
+  }
+
+  .row-spacer{
+    min-height: 100px;
+  }
+
+  .row-content {
+    min-height: 100px;
+    border-radius: 0px 0px $border-radius-val $border-radius-val;
+    padding: 20px;
+  }
+  
+  #title-row{
+    h1 {
+      font-size: 150px;
+      text-align: center;
+    }
+  }
+  
+  
+  #tutorials-row {
+    .row-header {
+      background-color: $tutorial-row-header;
+    }
+    .row-content {
+      background-color: $tutorial-row-content;
+      color: $tutorial-content-font;
+    }
+
+    button {
+      padding: 20px 40px;
+      color: $bg-color;
+      border-radius: $border-radius-val $border-radius-val $border-radius-val $border-radius-val;
+    }
+    h1 {
+    }
+  }
+
+  #about-row{
+    .row-header {
+      background-color: $about-row-header;
+    }
+    .row-content {
+      background-color: $about-row-content;
+      color: $about-content-font;
+    }
+  }
+
+  #contact-row {
+    .row-header {
+      background-color: $contact-row-header;
+    }
+    .row-content {
+      background-color: $contact-row-content;
+      color: $contact-content-font;
+    }
+    #team-image {
+      max-width: 100%;
+    }
+  }
+}

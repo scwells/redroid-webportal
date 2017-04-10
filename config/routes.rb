@@ -2,6 +2,7 @@ Rails.application.routes.draw do
 
   root 'static_pages#home'
   get 'download_video', to: 'devices#download', as: 'download'
+  get 'index', to: 'static_pages#index', as: 'index'
   delete 'delete_video', to: 'devices#delete', as: 'delete'
   resource :devices
 

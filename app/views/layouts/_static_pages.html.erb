@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Welcome to Redroid</title>
+    <%= csrf_meta_tags %>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+  <body id="index-body">
+    <%= yield %>
+  </body>
+  <script type="text/javascript">
+    $('a[href*=\\#]').on('click', function(event){     
+      event.preventDefault();
+      $('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
+    });
+  </script>
+</html>
