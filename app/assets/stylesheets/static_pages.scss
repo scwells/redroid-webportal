@@ -24,38 +24,55 @@ $contact-content-font: #003016;
 
 #index-body{
   background-color: $bg-color;
+  // background-image: image-url("campus_fall.jpg");
+  // background-repeat: no-repeat;
+  // background-size: 1024px 576px;
+  // background-position: top;
   color: black;
-  font-size: 24px;
+  font-size: 12px;
   line-height: 200%;
   h2 {
-    font-size: 66px;
+    font-size: 50px;
     text-align: center;
+  }
+
+  a {
+    font-size: 20px;
   }
   
   h3 {
-    font-size: 50px;
+    font-size: 25px;
   }
 
+  .row {
+   
+  }
+
+  .col-lg-12 {
+
+  }
   .row-header {
     background-color: $font-color;
     border-radius: $border-radius-val $border-radius-val 0px 0px;
     color: $bg-color;
+    padding: 1px;
   }
 
   .row-spacer{
-    min-height: 100px;
+    min-height: 80px;
   }
 
   .row-content {
     min-height: 100px;
     border-radius: 0px 0px $border-radius-val $border-radius-val;
     padding: 20px;
+    margin-top: 0px;
   }
   
   #title-row{
-    h1 {
-      font-size: 150px;
-      text-align: center;
+    img {
+      max-width:100%;
+      max-height:100%;
     }
   }
   
@@ -71,10 +88,9 @@ $contact-content-font: #003016;
 
     button {
       padding: 20px 40px;
-      color: $bg-color;
+      color: black;
+      background-color: $tutorial-row-header;
       border-radius: $border-radius-val $border-radius-val $border-radius-val $border-radius-val;
-    }
-    h1 {
     }
   }
 
