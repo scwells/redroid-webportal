@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Redroid 404 Page Not Found</title>
+    <%= csrf_meta_tags %>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <link rel="icon" type="image/x-icon" href=<%= asset_path 'favicon.ico' %> />
+  </head>
+  <body>
+    <div class="row">
+      <div class="col-lg-12" align="center">
+        <%= image_tag "logo_slate_sky.png", id: 'redroid-logo', style: 'height:60%;width:60%;' %>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12" align="center">
+        <%= image_tag "404.png", id: '404-image', style: 'height:40%;width:40%;' %>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12" align="center">
+       <p style="padding: 20px;">The page you were looking for could not be found. Please check your URL.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <ul class="list-inline" align="center">
+          <li>
+            <%= link_to "Home", root_path %>
+          </li>
+          <li>
+            <%= link_to "Video Portal", video_path %>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
