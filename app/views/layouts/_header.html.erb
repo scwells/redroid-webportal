@@ -1,24 +1,24 @@
 <div id="header">
-<table>
-  <tr>
-    <td rowspan="2" id="header-image">
-      <%= image_tag("bot_light_slate_blue.png", size: "212x250") %>
-    </td>
-    <td id="header-title">
-      <h1> Redroid Video Web Portal </h1>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" id="header-search-control">
-    <%= form_tag(devices_path, method: :get) do %>
-      <div class="input-group">
-          <%= text_field_tag :search, nil, class: "input-group-addon form-control", placeholder: 'Enter Device ID' %>
-        <span class="input-group-btn">
-          <%= submit_tag 'Search', class: 'btn btn-primary' %>
-        </span>
-      </div>
-    <% end %>
-    </td>
-  </tr>
-</table>
+  <div class="row">
+    <div class="col-12-lg col-12-md col-12-sm">
+      <%= image_tag("logo_slate_sky.png") %>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12-lg col-12-md col-12-sm">
+      <h1>Video Portal</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12-lg col-12-md col-12-sm">
+      <%= form_tag(devices_path, method: :get) do %>
+        <div class="input-group search-control-group">
+            <%= text_field_tag :search, nil, class: "input-group-addon form-control", placeholder: 'Enter Device ID' %>
+            <span class="input-group-btn">
+            <%= submit_tag 'Search', class: 'btn btn-primary' %>
+          </span>
+        </div>
+      <% end %>
+    </div>
+  </div>
 </div>
