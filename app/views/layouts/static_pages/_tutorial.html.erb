@@ -6,52 +6,100 @@
   </div>
   <div class="row">
     <div class="col-lg-12 row-content">
-      <button class="glyphicon glyphicon-chevron-left" onclick="plusDivs(-1)"></button>
-      <button class="glyphicon glyphicon-chevron-right" onclick="plusDivs(1)"></button>
-       <div class="tutorial-slides">
-          <h3>Pet Cam</h3>
-          <p>
-            Here's how to set up the pet cam
-          </p>
+      <button class="glyphicon glyphicon-chevron-left" onclick="plusDivs(-1)" id="tutorial-back-button" disabled></button>
+      <button class="glyphicon glyphicon-chevron-right" onclick="plusDivs(1)" id="tutorial-forward-button"></button>
+       <div class="tutorial-slides" id="video-1">
+          <h3>1. Introduction</h3>
        </div>
-       <div class="tutorial-slides">
-          <h3>Bike Cam</h3>
-          <p>
-            Here's a video of setting up the bike cam
-          </p>
+       <div class="tutorial-slides" id="video-2">
+          <h3>2. Configuration</h3>
        </div>
-       <div class="tutorial-slides">
-          <h3>Custom Configuration</h3>
-          <p>
-            Custom configs are the bees knees
-          </p>
+       <div class="tutorial-slides" id="video-3">
+          <h3>3. Streaming Video</h3>
        </div>
-       <div class="tutorial-slides">
-          <h3>Rules</h3>
-          <p>
-            We needed something with "Engine" in the name
-          </p>
+       <div class="tutorial-slides" id="video-4">
+          <h3>4. Rules</h3>
+       </div>
+       <div class="tutorial-slides" id="video-5">
+          <h3>5. Motion Detection</h3>
+       </div>
+       <div class="tutorial-slides" id="video-6">
+          <h3>6. Location Logging</h3>
+       </div>
+       <div class="tutorial-slides" id="video-7">
+          <h3>7. Bike Cam</h3>
+       </div>
+       <div id="video-div">
+          <%= video_tag "1_Redroid_intro.webm", controls: true, preload: false, autobuffer: true, class: 'tutorial-video', id: 'tutorial-video' %>
        </div>
     </div>
   </div>
 </div>
 
 <script type="text/javascript">
-  var slideIndex = 1;
+  var slideIndex = 0;
+  var numVideos = 7;
   showDivs(slideIndex);
 
   function plusDivs(n) {
-      showDivs(slideIndex += n);
+      videoIndex = slideIndex += n; // mod by number of total videos for wrap-around on button
+      console.log(videoIndex);
+      showDivs(videoIndex);
+      var videoBlock = "";
+      switch (videoIndex){
+        case 0:
+          videoBlock = '<%= video_tag "1_Redroid_intro.webm", preload: "none", controls: true, preload: false, autobuffer: true, class: 'tutorial-video', id: 'tutorial-video' %>';
+          break;
+        case 1:
+          videoBlock = '<%= video_tag "2_Redroid_configuration.webm", preload: "none", controls: true, autobuffer: true, class: 'tutorial-video', id: 'tutorial-video' %>';
+          break;
+        case 2:
+          videoBlock = '<%= video_tag "3_Redroid_streaming_video.webm", preload: "none", controls: true, autobuffer: true, class: 'tutorial-video', id: 'tutorial-video' %>';
+          break;
+        case 3:
+          videoBlock = '<%= video_tag "4_Redroid_rules.webm", preload: "none", controls: true, autobuffer: true, class: 'tutorial-video', id: 'tutorial-video' %>';
+          break;
+        case 4:
+          videoBlock = '<%= video_tag "5_Redroid_motion detection", preload: "none", controls: true, autobuffer: true, class: 'tutorial-video', id: 'tutorial-video' %>';
+          break;
+        case 5:
+          videoBlock = '<%= video_tag "6_Redroid_location_logging.webm", preload: "none", controls: true, autobuffer: true, class: 'tutorial-video', id: 'tutorial-video' %>';
+          break;
+        case 6:
+          videoBlock = '<%= video_tag "7_Redroid_bike_cam.webm", preload: "none", controls: true, autobuffer: true, class: 'tutorial-video bike-cam-video', id: 'tutorial-video' %>';
+          break;
+      }
+      // change video src here
+      //$().remove("#tutorial-video");
+      videoPlayer = document.getElementById("tutorial-video");
+      videoPlayer.pause();
+      videoPlayer.setAttribute("src", "");
+
+
+      $("#video-div").html(videoBlock);
+      if(videoIndex + 1 == numVideos){
+        $("#tutorial-forward-button").prop("disabled", true);
+      }
+      else{
+        $("#tutorial-forward-button").prop("disabled", false);
+      }
+
+      if(videoIndex + 1 == 1){
+        $("#tutorial-back-button").prop("disabled", true);
+      }
+      else {
+        $("#tutorial-back-button").prop("disabled", false);
+      }
+
+      document.getElementById("tutorial-video").load();
   };
 
   function showDivs(n) {
       var i;
-      var x = document.getElementsByClassName("tutorial-slides");
-      if (n > x.length) {slideIndex = 1} 
-      if (n < 1) {slideIndex = x.length} ;
+      var x = document.getElementsByClassName("tutorial-slides"); 
       for (i = 0; i < x.length; i++) {
           x[i].style.display = "none"; 
       }
-      x[slideIndex-1].style.display = "block"; 
+      x[slideIndex].style.display = "block"; 
   };
 </script>

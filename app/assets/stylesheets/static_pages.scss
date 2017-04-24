@@ -12,15 +12,18 @@ $border-radius-val: 15px;
 
 $tutorial-row-header: #AB3310;
 $tutorial-row-content: #EB876A;
-$tutorial-content-font: #430F00;
+//$tutorial-content-font: #430F00;
+$tutorial-content-font: #FFF4F1;
 
 $about-row-header: #0F4B6C;
 $about-row-content: #487A95;
-$about-content-font: #011C2B;
+//$about-content-font: #011C2B;
+$about-content-font: #FFF4F1;
 
 $contact-row-header: #0B793E;
 $contact-row-content: #4BA675;
-$contact-content-font: #003016;
+//$contact-content-font: #003016;
+$contact-content-font: #FFF4F1;
 
 #index-body{
   background-color: $bg-color;
@@ -29,7 +32,7 @@ $contact-content-font: #003016;
   // background-size: 1024px 576px;
   // background-position: top;
   color: black;
-  font-size: 12px;
+  font-size: 18px;
   line-height: 200%;
   h2 {
     font-size: 50px;
@@ -92,6 +95,15 @@ $contact-content-font: #003016;
       background-color: $tutorial-row-header;
       border-radius: $border-radius-val $border-radius-val $border-radius-val $border-radius-val;
     }
+
+    .tutorial-video{
+      width: 100%;
+      height: 100%;
+    }
+
+    .bike-cam-video{
+      max-height: 500px;
+    }
   }
 
   #about-row{
@@ -114,6 +126,9 @@ $contact-content-font: #003016;
     }
     #team-image {
       max-width: 100%;
+    }
+    a {
+      color: $bg-color;
     }
   }
 }

@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   root 'static_pages#index'
   get 'download_video', to: 'devices#download', as: 'download'
   get 'video', to: 'static_pages#home', as: 'video'
+  get 'videos', to: 'static_pages#home', as: 'videos'
 
   get 'images/*img', to: 'images#fetch'
   put 'images/*img', to: 'images#upload'
