@@ -19,7 +19,7 @@ All you need is the Peripheral Device ID to get to all your stored videos on the
 #### You will need:
 1. A linux box (this guide uses Ubuntu Server 16.04)
     - Can run on Raspberry pi! It runs surprisingly well. 
-2. Some shell experience and knowledge of routers
+2. Some shell experience and router configuration knowledge
 3. A lot of patience
 
 ### Step 1 -- Initial Setup
