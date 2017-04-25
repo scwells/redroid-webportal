@@ -18,13 +18,15 @@ class DevicesController < ApplicationController
         @videos = get_device_directory(@deviceid)
         if (@videos.count == 0)
           flash[:warning] = 'No saved videos found for that device.'
-          redirect_to root_path
+          redirect_to video_path
         else
           @videos.count == 1 ? flash[:info] = "#{@videos.count} video found!" : flash[:info] = "#{@videos.count} videos found!"
         end
+        # check for current video streaming
+        #if (File.exist? )
       else
         flash[:danger] = "Device: #{@deviceid} not found on the system. Please check ID or contact server administrator."
-        redirect_to root_path
+        redirect_to video_path
       end
     end
   end
@@ -41,15 +43,15 @@ class DevicesController < ApplicationController
   def validate_query_params
     if params[:search] && params[:search] !~ /\A(\w)+\z/
       flash[:danger] = 'Invalid device name.'
-      redirect_to root_path
+      redirect_to video_path
     end
     if params[:device] && params[:device] !~ /\A(\w)+\z/
       flash[:danger] = 'Invalid device parameter.'
-      redirect_to root_path
+      redirect_to video_path
     end
     if params[:file] && params[:file] !~ /\A(\w|\d)+[_]([-:\w\d])+(.flv)\z/
       flash[:danger] = 'Invalid file parameter.'
-      redirect_to root_path
+      redirect_to video_path
     end
   end
 
@@ -58,7 +60,7 @@ class DevicesController < ApplicationController
       if File.exist?(file_path = "/home/redroid/video_saves/#{params[:device]}/#{params[:file]}")
         send_file "/home/redroid/video_saves/#{params[:device]}/#{params[:file]}", disposition: 'attachment'
       else
-        redirect_to root_path
+        redirect_to video_path
       end
     end
   end
